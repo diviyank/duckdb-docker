@@ -1,4 +1,5 @@
 FROM ubuntu:24.04 AS base
+LABEL org.opencontainers.image.source="https://github.com/diviyank/duckdb-docker"
 ARG DUCKDB_VERSION=v1.1.3
 
 RUN apt-get update  \
