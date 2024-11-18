@@ -9,5 +9,5 @@ jobs:
       - name: Build and push the image
         run : |
           docker login --username diviyank --password ${{ secrets.GH_PAT }} ghcr.io
-          docker build . --tag ghcr.io/fentech-ai/duckdb:latest
-          docker push ghcr.io/fentech-ai/duckdb:latest
+          docker build . --tag ghcr.io/diviyank/duckdb:latest
+          docker push ghcr.io/diviyank/duckdb:latest
