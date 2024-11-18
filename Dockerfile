@@ -1,4 +1,4 @@
-FROM ubuntu:24.4 AS base
+FROM ubuntu:24.04 AS base
 ARG DUCKDB_VERSION=v1.1.3
 
 RUN apt-get update  \
